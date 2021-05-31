@@ -6,6 +6,10 @@
   "browser": "browser",
   "exports": {
     ".": {
+      "browser": {
+        "require": "./browser.js",
+        "import": "./browser.mjs"
+      },
       "require": "./node.js",
       "import": "./node.mjs"
     }
