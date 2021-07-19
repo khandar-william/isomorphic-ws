@@ -14,5 +14,4 @@ if (typeof WebSocket !== 'undefined') {
   ws = self.WebSocket || self.MozWebSocket
 }
 
-module.exports = ws
-module.exports.default = ws
+module.exports.WebSocket = ws;
