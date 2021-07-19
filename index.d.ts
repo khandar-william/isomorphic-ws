@@ -4,5 +4,37 @@
 // If there is still something wrong, welcome issue.
 
 import * as WebSocket from 'ws';
+import {
+	Server,
+	Data,
+	CertMeta,
+	VerifyClientCallbackAsync,
+	VerifyClientCallbackSync,
+	ClientOptions,
+	PerMessageDeflateOptions,
+	OpenEvent,
+	ErrorEvent,
+	CloseEvent,
+	MessageEvent,
+	EventListenerOptions,
+	ServerOptions,
+	AddressInfo
+} from 'ws';
 
-export = WebSocket;
+export {
+	WebSocket,
+	Server,
+	Data,
+	CertMeta,
+	VerifyClientCallbackAsync,
+	VerifyClientCallbackSync,
+	ClientOptions,
+	PerMessageDeflateOptions,
+	OpenEvent,
+	ErrorEvent,
+	CloseEvent,
+	MessageEvent,
+	EventListenerOptions,
+	ServerOptions,
+	AddressInfo
+};
