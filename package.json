@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/d-fischer/isomorphic-ws#readme",
   "peerDependencies": {
-    "ws": "*"
+    "ws": "^8.2.0"
   },
   "files": [
     "index.d.ts",
@@ -42,5 +42,9 @@
     "browser.js",
     "browser.mjs",
     "README.md"
-  ]
+  ],
+  "devDependencies": {
+    "@types/ws": "^8.2.0",
+    "ws": "^8.2.2"
+  }
 }

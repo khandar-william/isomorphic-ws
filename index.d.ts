@@ -3,8 +3,8 @@
 // Fix for https://github.com/heineiuo/isomorphic-ws/issues/8
 // If there is still something wrong, welcome issue.
 
-import * as WebSocket from 'ws';
 import {
+	WebSocket,
 	Server,
 	Data,
 	CertMeta,
@@ -12,7 +12,6 @@ import {
 	VerifyClientCallbackSync,
 	ClientOptions,
 	PerMessageDeflateOptions,
-	OpenEvent,
 	ErrorEvent,
 	CloseEvent,
 	MessageEvent,
@@ -30,7 +29,6 @@ export {
 	VerifyClientCallbackSync,
 	ClientOptions,
 	PerMessageDeflateOptions,
-	OpenEvent,
 	ErrorEvent,
 	CloseEvent,
 	MessageEvent,

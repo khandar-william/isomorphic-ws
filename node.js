@@ -1,6 +1,6 @@
 "use strict";
 
-var ws = require('ws');
+const { WebSocket, WebSocketServer } = require('ws');
 
-module.exports.WebSocket = ws;
-module.exports.Server = ws.Server;
+module.exports.WebSocket = WebSocket;
+module.exports.Server = WebSocketServer;

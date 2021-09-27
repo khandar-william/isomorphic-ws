@@ -1,7 +1,5 @@
 'use strict';
 
-import WebSocket from 'ws';
+import { WebSocket, WebSocketServer } from 'ws';
 
-const Server = WebSocket.Server;
-
-export { WebSocket, Server };
+export { WebSocket, WebSocketServer as Server };
