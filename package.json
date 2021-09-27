@@ -1,6 +1,6 @@
 {
   "name": "@d-fischer/isomorphic-ws",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "description": "Isomorphic implementation of WebSocket",
   "main": "node",
   "browser": "browser",
