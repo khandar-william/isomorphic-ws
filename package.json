@@ -6,6 +6,7 @@
   "browser": "browser",
   "exports": {
     ".": {
+      "types": "./lib/index.d.ts",
       "browser": {
         "require": "./browser.js",
         "import": "./browser.mjs"
