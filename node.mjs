@@ -1,5 +1,5 @@
-"use strict";
+'use strict';
 
-import ws from 'ws';
+import { WebSocket, WebSocketServer } from 'ws';
 
-export default ws;
+export { WebSocket, WebSocketServer as Server };

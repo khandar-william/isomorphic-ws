@@ -14,4 +14,6 @@ if (typeof WebSocket !== 'undefined') {
   ws = self.WebSocket || self.MozWebSocket
 }
 
-export default ws
+export {
+    ws as WebSocket
+}
